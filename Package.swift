@@ -5,13 +5,13 @@ import PackageDescription
 
 let package = Package(
     name: "CachedAsyncImage",
+    platforms: [
+        .iOS(.v15)
+    ],
     products: [
         .library(
             name: "CachedAsyncImage",
             targets: ["CachedAsyncImage"]),
-    ],
-    platforms: [
-        .iOS(.v13)
     ],
     targets: [
         .target(
