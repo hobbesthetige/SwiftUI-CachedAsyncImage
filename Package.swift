@@ -10,6 +10,9 @@ let package = Package(
             name: "CachedAsyncImage",
             targets: ["CachedAsyncImage"]),
     ],
+    platforms: [
+        .iOS(.v13)
+    ],
     targets: [
         .target(
             name: "CachedAsyncImage")
